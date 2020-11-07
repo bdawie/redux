@@ -1,0 +1,21 @@
+{
+  "name": "redux-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.4.0",
+    "redux": "^4.0.5",
+    "reselect": "^4.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
